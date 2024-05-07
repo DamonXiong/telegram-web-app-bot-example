@@ -465,10 +465,10 @@
         // actions
         sendMessage(msg_id, with_webview) {
             console.log(DemoApp.initData, DemoApp.initDataUnsafe);
-            if (!DemoApp.initDataUnsafe.query_id) {
-                alert('WebViewQueryId not defined');
-                return;
-            }
+            // if (!DemoApp.initDataUnsafe.query_id) {
+            //     alert('WebViewQueryId not defined');
+            //     return;
+            // }
 
             document.querySelectorAll('button').forEach((btn) => btn.disabled = true);
 
